@@ -3,5 +3,4 @@ class Author < ActiveRecord::Base
   validates :email, uniqueness: true
   validates :phone_number, length: { minimum: 10 }
   Validates :phone_number, length: { maximum: 10 }
-
 end
